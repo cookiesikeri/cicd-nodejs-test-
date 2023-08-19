@@ -1,5 +1,4 @@
-# cicd-nodejs-test by Ikeri Ebenezer.
-
+method 1 (using github actions )
 this is a simple nodejs app  deployted to aws, i will explain the pipeline flow below;
 
 *Tools*:
@@ -26,7 +25,9 @@ SUGGESTION:  in a live scenario, i normally add slack pipeline incase there is a
 note: trivy result is also stored in the root of the project .
 7. after the scan by trivy, then image is then pushed to ECR.
 
-jenkins file is added for auto and manual trigger
+second method: (using jenkinsfile)
+
+you can also use the jenkinsfile in the root for deployment method 2
 
 
 
